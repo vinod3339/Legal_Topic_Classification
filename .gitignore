@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Uploaded files
+uploads/
+
+# Model files
+*.joblib
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Fine-tuned models
+fine_tuned_legal_bert/
+inlegalbert_finetuned/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment/secrets
+.env
